@@ -1,0 +1,21 @@
+.judul-hero {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.judul-about {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.bg-ubh {
+    background-color: #F4870F;
+    color: white;
+}
+
+.bg-ubh:hover {
+    background-color: #F4870F;
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+    border: 1px solid white;
+}

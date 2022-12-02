@@ -1,0 +1,27 @@
+.judul-port {
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.teks-port {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.gallery img {
+    width: 32%;
+}

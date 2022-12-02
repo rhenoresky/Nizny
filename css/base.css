@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Glory', sans-serif;
+}
+
+.bg-gradient-atas {
+    background: linear-gradient(#112B3C -30%, #1773A5);
+}
+
+.bg-atas {
+    background-color: #1773A5;
+}
+
+.bg-bawah {
+    background-color: #112B3C;
+}
+
+.bg-tengah {
+    background-color: #F4870F;
+}
+
+.pb-6 {
+    padding-bottom: 120px;
+}
+
+.garis {
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+.kontak {
+    color: white;
+}
+
+.kontak:hover {
+    color: #F4870F;
+}
+
+.oren {
+    color: #F4870F;
+}
