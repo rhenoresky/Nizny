@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Glory', sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+    .icon-2 {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 10%;
+        top: -20%;
+        z-index: 50;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .icon-2 {
+        position: absolute;
+        width: 35%;
+        height: 35%;
+        left: 15%;
+        top: -20%;
+        z-index: 50;
+    }
+}
+
+.background {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+.icon-1 {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    right: -25%;
+    top: 35%;
+    z-index: 50;
+}
+
+.icon-3 {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    left: -20%;
+    bottom: -25%;
+    z-index: 50;
+}
+
+.card {
+    position: relative;
+    width: 80%;
+    height: 85%;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px auto 7px;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+}
+
+.figure section {
+    width: 60%;
+}
+
+.card h1 {
+    color: white;
+    text-align: center;
+}
+
+.card p {
+    color: white;
+    text-align: center;
+    margin-top: 4px;
+    font-weight: 500;
+}
+
+.card h2 {
+    color: white;
+    text-align: center;
+    margin-top: 34px;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px auto 0;
+    width: 350px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
